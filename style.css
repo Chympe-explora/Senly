@@ -93,7 +93,7 @@ a{
     background-position:center;
     display:flex;
     align-items:center;
-    padding:120px 8%;
+    padding:260px 8% 120px;
 }
 
 .hero-content{
@@ -505,4 +505,21 @@ footer{
 .show{
     opacity:1;
     transform:translateY(0);
+}
+/* Fix hero text behind header */
+.hero{
+    padding-top:260px !important;
+}
+
+/* Reduce gap between cards */
+.policy-card,
+.services-card,
+.info-card{
+    margin-bottom:20px !important;
+}
+
+/* Reduce section spacing */
+section{
+    padding-top:40px;
+    padding-bottom:40px;
 }

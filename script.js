@@ -1,4 +1,4 @@
-// MOBILE MENU (optional)
+6// MOBILE MENU (optional)
 
 const navLinks = document.querySelectorAll(".navbar a");
 
@@ -40,12 +40,13 @@ bookingForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
     const name = document.getElementById("name").value;
-    const phone = document.getElementById("phone").value;
-    const persons = document.getElementById("persons").value;
-    const date = document.getElementById("date").value;
-    const request = document.getElementById("request").value;
+const phone = document.getElementById("phone").value;
+const persons = document.getElementById("persons").value;
+const date = document.getElementById("date").value;
+const request = document.getElementById("request").value;
+const selectedPackage = document.getElementById("package").value;
 
-    const message =
+const message =
 `🌿 TEAM CHYMPE EXPLORA BOOKING
 
 👤 Name: ${name}
@@ -53,6 +54,8 @@ bookingForm.addEventListener("submit", function (e) {
 📞 Phone: ${phone}
 
 👥 Number of Persons: ${persons}
+
+🎒 Selected Package: ${selectedPackage}
 
 📅 Tour Date: ${date}
 

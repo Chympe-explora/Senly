@@ -163,10 +163,10 @@ a{
     padding:30px;
 }
 
-.about-right video {
-    width: 100%;
-    border-radius: 20px;
-    display: block;
+.about-right img{
+    width:100%;
+    border-radius:20px;
+    display:block;
 }
 
 .about h2{

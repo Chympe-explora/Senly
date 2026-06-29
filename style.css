@@ -319,13 +319,19 @@ a{
     margin-bottom:30px;
 }
 
+.safe{
+    text-align:center;
+    margin-top:20px;
+    color:#aaa;
+}
 .booking-form{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr;
     gap:20px;
 }
 
 .booking-form input,
+.booking-form select,
 .booking-form textarea{
     background:#071107;
     border:1px solid #1c3615;
@@ -333,15 +339,15 @@ a{
     padding:18px;
     color:#fff;
     font-size:15px;
+    width:100%;
 }
 
 .booking-form textarea{
-    grid-column:span 2;
     height:120px;
+    resize:none;
 }
 
 .booking-form button{
-    grid-column:span 2;
     background:#7bff00;
     color:#000;
     border:none;
@@ -350,6 +356,7 @@ a{
     font-size:18px;
     font-weight:700;
     cursor:pointer;
+    width:100%;
 }
 
 .safe{

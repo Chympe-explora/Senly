@@ -288,6 +288,36 @@ a{
     margin-bottom:15px;
 }
 
+.services{
+    padding:60px 7%;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.service-box{
+    background:#071107;
+    border:1px solid #1c3615;
+    border-radius:20px;
+    padding:30px;
+    max-width:700px;
+    margin:auto;
+}
+
+.service-box h3{
+    color:#7bff00;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+
+.service-box p{
+    color:#ddd;
+    margin:10px 0;
+    font-size:16px;
+}
+
 .booking{
     padding:60px 7%;
 }

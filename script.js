@@ -1,4 +1,4 @@
-6// MOBILE MENU (optional)
+// MOBILE MENU (optional)
 
 const navLinks = document.querySelectorAll(".navbar a");
 

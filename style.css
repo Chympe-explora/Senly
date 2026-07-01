@@ -175,6 +175,9 @@ a{
     border-radius:20px;
     margin:40px 0;
 }
+.live-conditions h2{
+    color:#7bff00;
+}
 
 .live-conditions video{
     width:100%;

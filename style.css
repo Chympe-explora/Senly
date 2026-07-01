@@ -168,7 +168,30 @@ a{
     border-radius:20px;
     display:block;
 }
+.live-conditions{
+    background:#071107;
+    padding:30px;
+    border:1px solid #1c3615;
+    border-radius:20px;
+    margin:40px 0;
+}
 
+.live-conditions video{
+    width:100%;
+    border-radius:18px;
+}
+
+.condition-box{
+    margin-top:20px;
+    background:#0d180d;
+    padding:20px;
+    border-radius:12px;
+    color:#fff;
+}
+
+.condition-box p{
+    margin:10px 0;
+}
 .about h2{
     color:#7bff00;
     margin-bottom:20px;
